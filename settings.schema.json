@@ -1,0 +1,10 @@
+ {
+    "name": "Filter Colors",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "custom_colors",
+        "label": "Custom Colors"
+      }
+    ]
+  }
