@@ -1,0 +1,95 @@
+.shop__left-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 22px;
+    border-bottom: 1px solid rgba(2,26,48,.2);
+}
+.shop__filter-reset {
+    font-family: FoundersGrotesk;
+    font-weight: 300;
+    text-decoration: underline;
+    font-size: 18px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.shop__filter-title {
+    font-family: FoundersGrotesk;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 28px;
+}
+.mobi {
+    display: none;
+}
+
+.filters {
+    max-height: calc(100vh - 110px);
+    overflow-y: auto;
+}
+
+.filters__item {
+    padding: 12px 0 19px;
+    border-bottom: 1px solid rgba(2,26,48,.2);
+}
+
+.filters__label {
+    font-family: FoundersGrotesk;
+    font-weight: 500;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+}
+
+.filters__filter-wrap {
+    display: flex;
+    gap: 12px;
+    flex-flow: wrap;
+}
+
+.filters__filter input {
+    opacity: 0;
+    position: absolute;
+}
+
+.filter-label {
+    font-size: 16px;
+    padding: 0 12px;
+    height: 34px;
+    background-color: #f4f4f4;
+    display: inline-flex;
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: center;
+    gap: 4px;
+}
+
+.filter__color {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-flex;
+}
+
+.btn {
+    line-height: 45px;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    font-family: FoundersGrotesk;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0 28px;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+    transition: .3s;
+    min-width: 187px;
+    text-align: center;
+}
+
+
+.btn {
+    padding: 13px 24px;
+    line-height: 1;
+}
